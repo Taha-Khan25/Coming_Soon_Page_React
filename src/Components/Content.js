@@ -1,5 +1,7 @@
 import React from "react";
 
+import MyImage from "../img/logo2.jpg"
+
 function Content() {
   return (
     <main id="main">
@@ -7,6 +9,7 @@ function Content() {
         <div className="container">
           <div className="section-title">
             <h2>About Us</h2>
+            <div id="ab-box" className="ab-box"></div>
             <p>
               <cite>
                 Welcome to Prachand, where we're revolutionizing healthcare

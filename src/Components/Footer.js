@@ -25,7 +25,7 @@ function Footer() {
             <div id="phone" className="d-flex flex-row">
               <div className="p-2"><i className="bi bi-phone"></i></div>
               <div className="p-2"><h6>Call:</h6></div>
-              <div className="p-2"><p>+91 9876543210</p></div>
+              <div className="p-2"><p>+916265874912</p></div>
             </div>
           </div>
         </div>

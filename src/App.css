@@ -7,6 +7,12 @@ body {
   position: relative;
 }
 
+.top-bar{
+  background: url("img/logo2.jpg") top center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 body::before {
   content: "";
   position: absolute;
@@ -518,11 +524,14 @@ section {
 }
 
 .section-title {
+ 
+  position: relative;
   text-align: center;
   padding-bottom: 30px;
 }
 
 .section-title h2 {
+  margin-top: 0px;
   font-size: 32px;
   font-weight: bold;
   text-transform: uppercase;
@@ -545,6 +554,7 @@ section {
 }
 
 .section-title p {
+  margin-top: 50px;
   margin-bottom: 0;
   color: rgb(248, 244, 244);
   font-size: 22px;
@@ -557,6 +567,18 @@ section {
 /*--------------------------------------------------------------
 # Contact Us
 --------------------------------------------------------------*/
+
+
+.about .ab-box
+{
+  background: url("img/logo2.jpg") top center no-repeat;
+  background-size: 220px 200px;
+  position: relative;
+  height: 180px;
+  border-radius: 15px 50px 30px 5px;
+
+}
+
 .about .icon-box {
   margin-bottom: 20px;
   text-align: center;
@@ -576,6 +598,7 @@ section {
 }
 
 .about .title {
+  
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
